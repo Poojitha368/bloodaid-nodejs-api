@@ -1,0 +1,23 @@
+{
+  "name": "blood-aid-nodejs-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "devstart": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.6"
+  }
+}
