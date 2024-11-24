@@ -289,7 +289,7 @@ app.get("/patient_requests", (req, res) => {
         username: req.username,
         blood_group: req.blood_group,
         units: req.units,
-        disease: req.reason,
+        reason: req.reason,
         requested_date: req.requested_date,
         phone_number: req.phone_number,
         status: req.status,
