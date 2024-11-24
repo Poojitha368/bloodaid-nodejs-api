@@ -133,7 +133,7 @@ app.get("/view_donations/:user_id", (req, res) => {
             user_id: donation.user_id
         }));
 
-        res.json({ view_donations: view_donations });
+        res.json({ donations: view_donations });
     });
 });
 
@@ -161,7 +161,7 @@ app.get("/view_requests/:user_id", (req, res) => {
             user_id: request.user_id
         }));
 
-        res.json({ view_requests: view_requests });
+        res.json({ viewrequests: view_requests });
     });
 });
 
@@ -285,12 +285,12 @@ app.get("/patient_requests", (req, res) => {
         return res.status(500).json({ message: "Database error" });
       }
       const patientRequests = result.map((req) => ({
-        donation_id: req.request_id,
+        request_id: req.request_id,
         username: req.username,
         blood_group: req.blood_group,
         units: req.units,
         disease: req.reason,
-        donated_date: req.requested_date,
+        requested_date: req.requested_date,
         phone_number: req.phone_number,
         status: req.status,
       }));
