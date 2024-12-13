@@ -3,8 +3,7 @@
 <p>Setup basic nodejs project:</p>
     <p>install nodejs</p>
    <p> npm init -y (for setting up of json packages)</p>
-    
-    <p>npm i express</p>
+   <p>npm i express</p>
     
 
 
