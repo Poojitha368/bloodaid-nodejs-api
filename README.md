@@ -4,6 +4,7 @@
     <p>install nodejs</p>
    <p> npm init -y (for setting up of json packages)</p>
    <p>npm i express</p>
+   <p>Change the scripts in package.json</p>
     
 
 
