@@ -1,13 +1,14 @@
 # blood-aid-nodejs-api
 
 <p>Setup basic nodejs project:</p>
-    install nodejs
-    npm init -y (for setting up of json packages)
-    npm i express
+    <p>install nodejs</p>
+   <p> npm init -y (for setting up of json packages)</p>
+    
+    <p>npm i express</p>
     
 
 
 
 <p>To run the program:</p>
-    node app.js 
-    npm run devstart (run this for automatic restart)
+   <p>node app.js </p> 
+    <p>npm run devstart (run this for automatic restart)</p>
